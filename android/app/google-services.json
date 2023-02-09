@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "11630227735",
+    "project_id": "realtime-database-demo-ed1c0",
+    "storage_bucket": "realtime-database-demo-ed1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11630227735:android:bd9afb69749b92ddbf8752",
+        "android_client_info": {
+          "package_name": "com.example.realtime_database_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11630227735-ljibne4dpja66ndnndbvsmr2mi2jddol.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.realtime_database_demo",
+            "certificate_hash": "bd37ae0120cd0a663a1b942e6d26ec7fb1ae5c73"
+          }
+        },
+        {
+          "client_id": "11630227735-g90klr7hh9bm8aatc7aaaoc2qb1m8bs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLX2bCNPxwlFmMD70rhIFfRq-GRaFikx0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11630227735-g90klr7hh9bm8aatc7aaaoc2qb1m8bs4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "11630227735-ebkgm2m1shjtajbd5glvraanabtbuj35.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.notificationapps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

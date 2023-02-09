@@ -1,0 +1,40 @@
+name: realtime_database_demo
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  after_layout: ^1.2.0
+  connectivity_plus: ^3.0.2
+  country_picker: ^2.0.19
+  cupertino_icons: ^1.0.5
+  encrypt: ^5.0.1
+  firebase_analytics: ^10.1.0
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  firebase_crashlytics: ^3.0.11
+  firebase_database: ^10.0.9
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  fzregex: ^2.0.0
+  get: ^4.6.5
+  get_storage: ^2.0.3
+  intl: ^0.17.0
+  keyboard_dismisser: ^3.0.0
+  modal_bottom_sheet: ^3.0.0-pre
+  pinput: ^2.2.23
+  status_alert: ^1.0.1
+  telephony: ^0.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.1
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
