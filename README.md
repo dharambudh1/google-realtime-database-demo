@@ -1,16 +1,32 @@
-# realtime_database_demo
+# Firebase Realtime Database
 
-A new Flutter project.
+## Features:
+- Live Data Manipulation in UI (Live Data Stream),
+- Local Storage (Persistent Storage - Sign-in & Sign-out functionality), 
+- OTP auto-fill (Works on Android only),
+- Google Analytics (User info, Demographic info, App info, Pages and screens info & Event info)
+- Google Crashlytics (If caught an exception or If an error occurred) 
+- App Check (Android: Play Integrity & SafetyNet)
+- Material 3 UI element, along with the system-wide multi-theme support (I used Flutter 3.7.0 at this time)
 
-## Getting Started
+## Scenarios:
+1. While Sign-in
+- Check if the email exists in DB
+- Check if the phone number exists in DB
+- Can log in with email & password (default) Or phone & password (if the user has verified phone number)
+- AES (CBC) cryptographic function for password decryption
 
-This project is a starting point for a Flutter application.
+2. While Sign-up
+- Check if the email already exists in DB
+- Check if the phone number already exists in DB
+- Ability to skip phone verification so they can verify afterwards
+- AES (CBC) cryptographic function for password encryption
 
-A few resources to get you started if this is your first Flutter project:
+3. While Home Screen
+- Users can verify the phone number if they skip at Sign-up screen.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## DB Structure (as JSON):
+- https://www.jsonkeeper.com/b/2M39 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/G292grjz/imgonline-com-ua-twotoone-x-IK7-Xdm2-VZ.png "img")
